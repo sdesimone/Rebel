@@ -507,7 +507,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastTestingUpgradeCheck = 0510;
-				LastUpgradeCheck = 0620;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = GitHub;
 			};
 			buildConfigurationList = D09AE4D815C5F45200ECAD10 /* Build configuration list for PBXProject "Rebel" */;
@@ -610,6 +610,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D08BB2DE15CB307200CC9868 /* Profile.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INSTALL_PATH = "@loader_path/../Frameworks/";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 			};
 			name = Profile;
@@ -618,10 +621,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D08BB2EB15CB307200CC9868 /* Mac-Framework.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac App Distribution: BigML, Inc (RAPPP8VUYV)";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "Rebel/Rebel-Info.plist";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Profile;
@@ -646,6 +651,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D08BB2DD15CB307200CC9868 /* Debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INSTALL_PATH = "@loader_path/../Frameworks/";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 			};
@@ -655,6 +663,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D08BB2DF15CB307200CC9868 /* Release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INSTALL_PATH = "@loader_path/../Frameworks/";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 			};
 			name = Release;
@@ -663,10 +674,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D08BB2EB15CB307200CC9868 /* Mac-Framework.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac App Distribution: BigML, Inc (RAPPP8VUYV)";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "Rebel/Rebel-Info.plist";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -675,10 +688,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D08BB2EB15CB307200CC9868 /* Mac-Framework.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac App Distribution: BigML, Inc (RAPPP8VUYV)";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "Rebel/Rebel-Info.plist";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;

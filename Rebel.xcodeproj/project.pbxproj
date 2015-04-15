@@ -509,6 +509,11 @@
 				LastTestingUpgradeCheck = 0510;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = GitHub;
+				TargetAttributes = {
+					D09AE4DE15C5F45200ECAD10 = {
+						DevelopmentTeam = RAPPP8VUYV;
+					};
+				};
 			};
 			buildConfigurationList = D09AE4D815C5F45200ECAD10 /* Build configuration list for PBXProject "Rebel" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -621,7 +626,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D08BB2EB15CB307200CC9868 /* Mac-Framework.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac App Distribution: BigML, Inc (RAPPP8VUYV)";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
@@ -674,7 +679,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D08BB2EB15CB307200CC9868 /* Mac-Framework.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac App Distribution: BigML, Inc (RAPPP8VUYV)";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
@@ -688,7 +693,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D08BB2EB15CB307200CC9868 /* Mac-Framework.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac App Distribution: BigML, Inc (RAPPP8VUYV)";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
